@@ -1,0 +1,13 @@
+<!DOCTYPE codename-mod-options>
+<menu name="Kitty Options!!!" desc="idk man">
+	<menu name="Customization" desc="Customize the mod to your liking!">
+		<checkbox id="Placeholder" name="Placeholder" desc="Test!"/>
+
+		<choice id="mainmenu" name="Main Menu" desc="Change Your Main Menu?">
+			<value name="Base Game" value="funkin"/>
+			<value name="Vs Hatsune Miku" value="miku"/>
+			<value name="Vs Sonic.exe" value="exe"/>
+		</choice>
+    </menu>
+	
+</menu>

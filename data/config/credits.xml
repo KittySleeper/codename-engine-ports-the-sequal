@@ -1,0 +1,13 @@
+<!DOCTYPE codename-mod-credits>
+<!-- TEMPLATE FOR CUSTOM CREDITS!!! -->
+<menu name="Kitty's Awsome Dumb Shit" desc="idk man">
+	<github user="kittysleeper" customName="KittySleeper" desc="Idk man im just doing dumb shit in CNE *also most of the code in here i have rewritten lol*" size="100" portrait="true" color="#FF8C00"/>
+	<menu name="Vs Hatsune Miku" desc="Miku Dayooooo">
+		<credit name="Hatsune Miku" desc="Composer" icon="miku" size="100" portrait="true" url="https://x.com/HatsuneMiku" color="#008CA3"/>
+		<credit name="Evdial" desc="Owner Of The Mod Also Art, Animation, Charting, and Minor Coding" icon="evdial" size="100" portrait="true" url="https://gamebanana.com/members/1771790" color="#21A68D"/>
+		<credit name="GenoX" desc="Coding, Charting, Audio For Cutsenes, Art, And Animation" icon="genox" size="100" portrait="true" url="https://gamebanana.com/members/1771171"/>
+		<github user="bbpanzu" customName="BBPanzu" desc="Music" size="100" portrait="true" color="#3C651B"/>
+		<credit name="PaperKitty" desc="Music" icon="paperkitty" size="100" portrait="true" url="https://www.youtube.com/@paperkittyyt"/>
+		<github user="Smokey555" customName="Smokey" desc="Coder" size="100" portrait="true"/>
+	</menu>
+</menu>

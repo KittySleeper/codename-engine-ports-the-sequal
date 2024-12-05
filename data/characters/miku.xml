@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="ev_miku_assets" icon="miku" color="#31CDCC">
+	<anim name="idle" anim="Miku idle dance" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Miku Sing Note LEFT0" x="32" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="Miku Sing Note UP0" x="20" y="50" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Miku Sing Note DOWN0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Miku Sing Note RIGHT0" x="-75" y="0" fps="24" loop="false"/>
+</character>
