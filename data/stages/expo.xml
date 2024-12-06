@@ -1,6 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/expo/" zoom="0.85">
-	<combo/>
+<stage folder="stages/expo/" zoom="0.9">
 	<sprite sprite="nightsky" name="nightsky"/>
 	<sprite sprite="concerttop" name="concerttop"/>
 	<sprite sprite="backlight" name="backlight"/>
@@ -8,7 +7,16 @@
 	<sprite sprite="speakers" name="speakers"/>
 	<sprite sprite="mainstage" name="mainstage"/>
 	<gf x="670" y="185"/>
-	<dad x="393" y="123"/>
+	<dad x="393" camyoffset="35" y="123"/>
 	<bf x="1095" y="126"/>
-	<sprite x="242" y="744" sprite="crowdbump" scale="1.5" name="crowdbump"/>
+	<combo x="942" y="424"/>
+	<sprite scrolly="1.15" x="252" y="765" sprite="crowdbump" alpha="0" scale="1.5" scrollx="0.85" name="crowdbump">
+		<anim name="idle" anim="crowdbump"/>
+		<anim x="-5" name="cheer" anim="crowdcheer" y="25"/>
+		<anim x="-5" name="miss" anim="crowdmiss" y="-5"/>
+	</sprite>
+	
+	<sprite scrolly="1.15" x="61" y="630" sprite="bunch_of_simps" alpha="0" scale="1.15" scrollx="0.85" name="bunch_of_simps">
+		<anim name="idle" anim="Downer Crowd Bob"/>
+	</sprite>
 </stage>
