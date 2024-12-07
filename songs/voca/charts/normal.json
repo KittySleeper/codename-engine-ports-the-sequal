@@ -1,7 +1,8 @@
 {
  "song": {
-  "player1": "bf-voca",
-  "gfVersion": "gf-voca",
+  "player1": "bf-expo-voca",
+  "gfVersion": "gf-expo-voca",
+  "stage": "expo-voca",
   "notes": [
    {
     "endTime": 1751.82481751825,
@@ -28121,7 +28122,7 @@
     "mustHitSection": true
    }
   ],
-  "player2": "miku-voca",
+  "player2": "miku-expo-voca",
   "chartVersion": "2",
   "eventObjects": [
    {

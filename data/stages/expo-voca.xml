@@ -1,0 +1,24 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/expo/voca/" zoom="0.9">
+	<sprite name="nightsky" sprite="nightsky"/>
+	<sprite name="concerttop" sprite="concerttop"/>
+	<sprite name="backlight" sprite="backlight"/>
+	<sprite x="-138" name="stadiumback" sprite="stadiumback" y="22"/>
+	<sprite name="speakers" sprite="speakers"/>
+	<sprite name="mainstage" sprite="mainstage"/>
+	<gf x="670" y="185"/>
+	<dad x="393" y="123" camyoffset="35"/>
+	<bf x="1095" y="126"/>
+	<combo x="942" y="424"/>
+	<sprite x="252" scrolly="1.15" sprite="crowd" y="765" scale="1.5" name="crowd" scrollx="0.85">
+		
+		
+		<anim anim="crowdbump" name="idle"/>
+		
+		
+		<anim x="-5" y="25" anim="crowdcheer" name="cheer"/>
+		
+	
+	</sprite>
+	<sprite x="260" y="161" sprite="hell" zoomfactor="0.35" scale="1.5" name="hell"/>
+</stage>

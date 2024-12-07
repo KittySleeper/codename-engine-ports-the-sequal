@@ -1,7 +1,8 @@
 {
  "song": {
-  "player1": "bf-voca",
-  "player2": "miku-voca",
+  "player1": "bf-expo-voca",
+  "player2": "miku-expo-voca",
+  "stage": "expo-voca",
   "notes": [
    {
     "lengthInSteps": 16,
@@ -28541,7 +28542,7 @@
     "mustHitSection": true
    }
   ],
-  "gfVersion": "gf-voca",
+  "gfVersion": "gf-expo-voca",
   "eventObjects": [
    {
     "name": "Init BPM",

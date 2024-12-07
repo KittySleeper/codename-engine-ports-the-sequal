@@ -7,7 +7,10 @@ static var redirectStates:Map<FlxState, String> = [
 	MainMenuState => "StupidMenuSwitch" // ik its stupid shush your trap
 ];
 
-function new() {
+function new() { //savedata shit
+	if (FlxG.save.data.kittydebug == null)
+		FlxG.save.data.kittydebug = false;
+
 	if (FlxG.save.data.mainmenu == null)
 		FlxG.save.data.mainmenu = "funkin";
 }

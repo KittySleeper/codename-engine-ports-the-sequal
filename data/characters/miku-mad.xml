@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="miku/ev_miku_mad" icon="mikumad" color="#31CDCC">
+	<anim name="idle" anim="Miku idle dance" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="Miku Sing Note UP" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Miku Sing Note LEFT" x="37" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Miku Sing Note RIGHT" x="-20" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Miku Sing Note DOWN" x="10" y="0" fps="24" loop="false" indices="0..9"/>
+	<anim name="singUP-alt" anim="Miku Scream Sing Note UP" x="10" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="Miku Scream Sing Note LEFT" x="44" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="Miku Scream Sing Note RIGHT" x="-22" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="Miku Scream Sing Note DOWN" x="10" y="0" fps="24" loop="false"/>
+</character>
