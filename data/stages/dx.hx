@@ -3,19 +3,24 @@ var stupidFuckingCamera;
 
 function create() {
     introLength = -1;
-
-    dxNoteCam = new FlxCamera();
-    dxNoteCam.bgColor = FlxColor.TRANSPARENT;
-    FlxG.cameras.add(dxNoteCam, true);
-
-    stupidFuckingCamera = new FlxCamera();
-    stupidFuckingCamera.bgColor = FlxColor.TRANSPARENT;
-    FlxG.cameras.add(stupidFuckingCamera, true);
-
-    FlxG.cameras.add(camHUD, false);
 }
 
 function postCreate() {
+    dxNoteCam = new FlxCamera(100);
+    dxNoteCam.bgColor = FlxColor.TRANSPARENT;
+    dxNoteCam.addShader(new CustomShader("dx"));
+    FlxG.cameras.add(dxNoteCam, false);
+
+    stupidFuckingCamera = new FlxCamera(100);
+    stupidFuckingCamera.bgColor = FlxColor.TRANSPARENT;
+    FlxG.cameras.add(stupidFuckingCamera, true);
+
+    camGame.x = 100;
+
+    FlxG.cameras.add(camHUD, false);
+
+    FlxG.cameras.setDefaultDrawTarget(dxNoteCam);
+
     FlxG.camera.zoom = 1.5;
     FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, 1.85);
 
@@ -27,8 +32,8 @@ function postCreate() {
 
     for (strum in strumLines.members[0]) {
         strum.scrollFactor.set(1, 1);
-        strum.setPosition(3000, 2150 + (strum.ID * 100));
-        strum.noteAngle = 90;
+        strum.setPosition(2500, 2000 + (strum.ID * 100));
+        strum.angle = 90;
     }
 
     for (obj in [lifebox, frontbg])
