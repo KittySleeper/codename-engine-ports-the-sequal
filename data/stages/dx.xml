@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/dx/" zoom="0.6">
+	<gf alpha="0"/>
+	<sprite scrolly="0.8" name="sky" sprite="sky" scrollx="0.8"/>
+	<sprite x="104" y="121" sprite="bushes" scale="0.65" name="bushes" scrollx="0.75"/>
+	<sprite sprite="backbg" name="backbg"/>
+	<sprite sprite="frontbg" name="frontbg"/>
+	<sprite sprite="lifebox" name="lifebox"/>
+	<dad x="767" y="2378"/>
+	<bf x="1500" y="2500"/>
+	<combo x="1285" y="2448"/>
+</stage>
